@@ -1,0 +1,36 @@
+{
+  "name": "parent-dirs",
+  "version": "0.0.0",
+  "description": "Get an array of parent directories including itself",
+  "license": "MIT",
+  "repository": "sindresorhus/parent-dirs",
+  "author": {
+    "name": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "parent",
+    "directories",
+    "parents",
+    "directories",
+    "folders",
+    "path",
+    "paths",
+    "array",
+    "list"
+  ],
+  "devDependencies": {
+    "ava": "*",
+    "xo": "*"
+  }
+}
