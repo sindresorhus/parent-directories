@@ -6,7 +6,7 @@ module.exports = str => {
 		return ['/'];
 	}
 
-	const parts = pth.split(/[\/\\]/);
+	const parts = pth.split(/[/\\]/);
 
 	return parts.map((el, i) => parts.slice(0, parts.length - i).join('/').replace(/^$/, '/'));
 };
