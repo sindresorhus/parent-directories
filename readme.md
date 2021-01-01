@@ -1,4 +1,4 @@
-# parent-dirs [![Build Status](https://travis-ci.org/sindresorhus/parent-dirs.svg?branch=master)](https://travis-ci.org/sindresorhus/parent-dirs)
+# parent-dirs
 
 > Get an array of parent directories including itself
 
