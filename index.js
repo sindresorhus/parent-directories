@@ -1,12 +1,11 @@
-'use strict';
-module.exports = str => {
-	const pth = str || process.cwd();
-
-	if (pth === '/') {
+export default function parentDirectories(path = process.cwd()) {
+	if (path === '/') {
 		return ['/'];
 	}
 
-	const parts = pth.split(/[/\\]/);
+	const pathComponents = path.split(/[/\\]/);
 
-	return parts.map((el, i) => parts.slice(0, parts.length - i).join('/').replace(/^$/, '/'));
-};
+	return path
+		.split(/[/\\]/)
+		.map((pathComponent, index) => pathComponents.slice(0, pathComponents.length - index).join('/').replace(/^$/, '/'));
+}

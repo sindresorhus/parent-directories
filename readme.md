@@ -2,20 +2,18 @@
 
 > Get an array of parent directories including itself
 
-
 ## Install
 
 ```
-$ npm install --save parent-dirs
+$ npm install parent-dirs
 ```
-
 
 ## Usage
 
 ```js
-const parentDirs = require('parent-dirs');
+import parentDirectories from 'parent-dirs';
 
-parentDirs(__dirname);
+parentDirectories();
 /*
 [
 	'/Users/sindresorhus/dev/parent-dirs',
@@ -27,19 +25,13 @@ parentDirs(__dirname);
 */
 ```
 
-
 ## API
 
-### parentDirs(cwd)
+### parentDirectories(cwd)
 
 #### cwd
 
-Type: `string`<br>
+Type: `string`\
 Default: `process.cwd()`
 
 Directory starting point to return paths from.
-
-
-## License
-
-MIT © [Sindre Sorhus](https://sindresorhus.com)
