@@ -1,3 +1,5 @@
+import process from 'node:process';
+
 export default function parentDirectories(path = process.cwd()) {
 	if (path === '/') {
 		return ['/'];

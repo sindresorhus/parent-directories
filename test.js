@@ -10,14 +10,14 @@ test('main', t => {
 		'/a/b/c',
 		'/a/b',
 		'/a',
-		'/'
+		'/',
 	]);
 
 	t.deepEqual(parentDirectories('a/b/c/d'), [
 		'a/b/c/d',
 		'a/b/c',
 		'a/b',
-		'a'
+		'a',
 	]);
 
 	t.deepEqual(parentDirectories('c:\\a\\b\\c\\d'), [
@@ -25,13 +25,13 @@ test('main', t => {
 		'c:/a/b/c',
 		'c:/a/b',
 		'c:/a',
-		'c:'
+		'c:',
 	]);
 
 	t.deepEqual(parentDirectories('c:/a/b'), [
 		'c:/a/b',
 		'c:/a',
-		'c:'
+		'c:',
 	]);
 
 	t.deepEqual(parentDirectories('c:\\Program Files\\Foo\\Bar Baz 99\\rainbow'), [
@@ -39,6 +39,6 @@ test('main', t => {
 		'c:/Program Files/Foo/Bar Baz 99',
 		'c:/Program Files/Foo',
 		'c:/Program Files',
-		'c:'
+		'c:',
 	]);
 });

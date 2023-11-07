@@ -4,8 +4,8 @@
 
 ## Install
 
-```
-$ npm install parent-dirs
+```sh
+npm install parent-dirs
 ```
 
 ## Usage
@@ -34,4 +34,4 @@ parentDirectories();
 Type: `string`\
 Default: `process.cwd()`
 
-Directory starting point to return paths from.
+The starting point directory to return paths from.
