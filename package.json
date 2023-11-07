@@ -1,6 +1,6 @@
 {
 	"name": "parent-directories",
-	"version": "2.0.0",
+	"version": "3.0.0",
 	"description": "Get an array of parent directories including itself",
 	"license": "MIT",
 	"repository": "sindresorhus/parent-directories",
