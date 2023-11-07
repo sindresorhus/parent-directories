@@ -34,4 +34,4 @@ parentDirectories();
 Type: `string`\
 Default: `process.cwd()`
 
-The starting point directory to return paths from.
+The current working directory from which to generate parent paths.
