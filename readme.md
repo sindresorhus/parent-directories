@@ -1,22 +1,22 @@
-# parent-dirs
+# parent-directories
 
 > Get an array of parent directories including itself
 
 ## Install
 
 ```sh
-npm install parent-dirs
+npm install parent-directories
 ```
 
 ## Usage
 
 ```js
-import parentDirectories from 'parent-dirs';
+import parentDirectories from 'parent-directories';
 
 parentDirectories();
 /*
 [
-	'/Users/sindresorhus/dev/parent-dirs',
+	'/Users/sindresorhus/dev/parent-directories',
 	'/Users/sindresorhus/dev',
 	'/Users/sindresorhus',
 	'/Users',

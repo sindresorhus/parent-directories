@@ -6,11 +6,11 @@ Get an array of parent directories including itself.
 
 @example
 ```
-import parentDirectories from 'parent-dirs';
+import parentDirectories from 'parent-directories';
 
 parentDirectories();
 // [
-// 	'/Users/sindresorhus/dev/parent-dirs',
+// 	'/Users/sindresorhus/dev/parent-directories',
 // 	'/Users/sindresorhus/dev',
 // 	'/Users/sindresorhus',
 // 	'/Users',
